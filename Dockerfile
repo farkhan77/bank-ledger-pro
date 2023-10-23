@@ -12,7 +12,7 @@ RUN npm run build
 
 USER root
 
-RUN chmod -R 777 vite.config.js
+RUN chmod -R 777 app
 
 USER node
 
