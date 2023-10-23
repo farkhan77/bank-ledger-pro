@@ -12,6 +12,6 @@ RUN npm run build
 
 USER node
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev"]
 
 EXPOSE 5173 
