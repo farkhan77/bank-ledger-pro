@@ -18,4 +18,4 @@ USER node
 
 CMD ["npm", "start"]
 
-EXPOSE 5173 
+EXPOSE 3000
