@@ -16,6 +16,6 @@ RUN chmod -R 777 /app
 
 USER node
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev", "--", "--host"]
 
-EXPOSE 3000
+EXPOSE 5173
